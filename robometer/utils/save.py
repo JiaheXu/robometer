@@ -256,6 +256,9 @@ def resolve_checkpoint_path(checkpoint_path: str | None, hub_token: str | None =
     if not checkpoint_path:
         return None
 
+    if Path(checkpoint_path).is_dir():
+        return str(Path(checkpoint_path).resolve())
+
     # If it's a local path, return as-is
     if checkpoint_path.startswith("/") or checkpoint_path.startswith("./") or checkpoint_path.startswith("../"):
         logger.info(f"Using local checkpoint: {checkpoint_path}")
