@@ -1,0 +1,336 @@
+{
+  "frames": 457,
+  "segments": [
+    {
+      "episode": "teleop_teleoperation_20261110_084120_478_episode_000000003",
+      "segment": 0,
+      "instruction": "Put the black drink can on the wooden shelf.",
+      "frames": 12,
+      "final_progress": 0.7223805785179138,
+      "final_success_probability": 0.14453125,
+      "max_success_probability": 0.73828125,
+      "review_flagged_frames": 1
+    },
+    {
+      "episode": "teleop_teleoperation_20261110_084120_478_episode_000000003",
+      "segment": 1,
+      "instruction": "Put the clear bottle with the white cap on the wooden shelf.",
+      "frames": 14,
+      "final_progress": 0.8272066712379456,
+      "final_success_probability": 0.72265625,
+      "max_success_probability": 0.8828125,
+      "review_flagged_frames": 2
+    },
+    {
+      "episode": "teleop_teleoperation_20261110_084120_478_episode_000000003",
+      "segment": 2,
+      "instruction": "Put the red fruit-shaped object in the light blue tray.",
+      "frames": 13,
+      "final_progress": 0.9048047661781311,
+      "final_success_probability": 0.9296875,
+      "max_success_probability": 0.9296875,
+      "review_flagged_frames": 2
+    },
+    {
+      "episode": "teleop_teleoperation_20261110_084120_478_episode_000000003",
+      "segment": 3,
+      "instruction": "Put the yellow textured oval produce item in the light blue tray.",
+      "frames": 10,
+      "final_progress": 0.8909269571304321,
+      "final_success_probability": 0.83984375,
+      "max_success_probability": 0.83984375,
+      "review_flagged_frames": 2
+    },
+    {
+      "episode": "teleop_teleoperation_20261110_084120_478_episode_000000003",
+      "segment": 4,
+      "instruction": "Put the red lobster toy in the white tray.",
+      "frames": 15,
+      "final_progress": 0.8990057110786438,
+      "final_success_probability": 0.93359375,
+      "max_success_probability": 0.93359375,
+      "review_flagged_frames": 2
+    },
+    {
+      "episode": "teleop_teleoperation_20261110_084120_478_episode_000000003",
+      "segment": 5,
+      "instruction": "Put the white-and-purple unicorn toy in the white tray.",
+      "frames": 9,
+      "final_progress": 0.8933907151222229,
+      "final_success_probability": 0.8203125,
+      "max_success_probability": 0.8203125,
+      "review_flagged_frames": 2
+    },
+    {
+      "episode": "teleop_teleoperation_20261110_084120_478_episode_000000003",
+      "segment": 6,
+      "instruction": "Put the lavender rabbit toy in the white tray.",
+      "frames": 9,
+      "final_progress": 0.9243834614753723,
+      "final_success_probability": 0.9296875,
+      "max_success_probability": 0.96484375,
+      "review_flagged_frames": 2
+    },
+    {
+      "episode": "teleop_teleoperation_20261110_084120_478_episode_000000003",
+      "segment": 7,
+      "instruction": "Verify that the drinks are on the wooden shelf, the produce is in the light blue tray, and the toys are in the white tray.",
+      "frames": 2,
+      "final_progress": 0.23835574090480804,
+      "final_success_probability": 0.000911712646484375,
+      "max_success_probability": 0.007568359375,
+      "review_flagged_frames": 2
+    },
+    {
+      "episode": "teleop_teleoperation_20261110_084303_878_episode_000000004",
+      "segment": 0,
+      "instruction": "Put the black drink can on the wooden shelf.",
+      "frames": 14,
+      "final_progress": 0.7689043879508972,
+      "final_success_probability": 0.3984375,
+      "max_success_probability": 0.68359375,
+      "review_flagged_frames": 1
+    },
+    {
+      "episode": "teleop_teleoperation_20261110_084303_878_episode_000000004",
+      "segment": 1,
+      "instruction": "Put the clear bottle with the white cap on the wooden shelf.",
+      "frames": 19,
+      "final_progress": 0.7662431001663208,
+      "final_success_probability": 0.50390625,
+      "max_success_probability": 0.73046875,
+      "review_flagged_frames": 2
+    },
+    {
+      "episode": "teleop_teleoperation_20261110_084303_878_episode_000000004",
+      "segment": 2,
+      "instruction": "Put the yellow textured oval produce item in the light blue tray.",
+      "frames": 14,
+      "final_progress": 0.874530017375946,
+      "final_success_probability": 0.8671875,
+      "max_success_probability": 0.90234375,
+      "review_flagged_frames": 2
+    },
+    {
+      "episode": "teleop_teleoperation_20261110_084303_878_episode_000000004",
+      "segment": 3,
+      "instruction": "Put the red fruit-shaped object in the light blue tray.",
+      "frames": 10,
+      "final_progress": 0.9048605561256409,
+      "final_success_probability": 0.92578125,
+      "max_success_probability": 0.94921875,
+      "review_flagged_frames": 2
+    },
+    {
+      "episode": "teleop_teleoperation_20261110_084303_878_episode_000000004",
+      "segment": 4,
+      "instruction": "Put the white-and-purple unicorn toy in the white tray.",
+      "frames": 13,
+      "final_progress": 0.9313168525695801,
+      "final_success_probability": 0.95703125,
+      "max_success_probability": 0.95703125,
+      "review_flagged_frames": 2
+    },
+    {
+      "episode": "teleop_teleoperation_20261110_084303_878_episode_000000004",
+      "segment": 5,
+      "instruction": "Put the lavender rabbit toy in the white tray.",
+      "frames": 10,
+      "final_progress": 0.9397003054618835,
+      "final_success_probability": 0.9609375,
+      "max_success_probability": 0.9609375,
+      "review_flagged_frames": 2
+    },
+    {
+      "episode": "teleop_teleoperation_20261110_084303_878_episode_000000004",
+      "segment": 6,
+      "instruction": "Put the red lobster toy in the white tray.",
+      "frames": 11,
+      "final_progress": 0.8676407337188721,
+      "final_success_probability": 0.8125,
+      "max_success_probability": 0.9296875,
+      "review_flagged_frames": 2
+    },
+    {
+      "episode": "teleop_teleoperation_20261110_084303_878_episode_000000004",
+      "segment": 7,
+      "instruction": "Verify that the drinks are on the wooden shelf, the produce is in the light blue tray, and the toys are in the white tray.",
+      "frames": 4,
+      "final_progress": 0.3406356871128082,
+      "final_success_probability": 0.0012054443359375,
+      "max_success_probability": 0.01165771484375,
+      "review_flagged_frames": 4
+    },
+    {
+      "episode": "teleop_teleoperation_20261110_084443_978_episode_000000005",
+      "segment": 0,
+      "instruction": "Put the black drink can on the wooden shelf.",
+      "frames": 13,
+      "final_progress": 0.7476009130477905,
+      "final_success_probability": 0.279296875,
+      "max_success_probability": 0.279296875,
+      "review_flagged_frames": 1
+    },
+    {
+      "episode": "teleop_teleoperation_20261110_084443_978_episode_000000005",
+      "segment": 1,
+      "instruction": "Put the clear bottle with the white cap on the wooden shelf.",
+      "frames": 9,
+      "final_progress": 0.8643503785133362,
+      "final_success_probability": 0.8671875,
+      "max_success_probability": 0.8671875,
+      "review_flagged_frames": 2
+    },
+    {
+      "episode": "teleop_teleoperation_20261110_084443_978_episode_000000005",
+      "segment": 2,
+      "instruction": "Put the red fruit-shaped object in the light blue tray.",
+      "frames": 15,
+      "final_progress": 0.836859941482544,
+      "final_success_probability": 0.76953125,
+      "max_success_probability": 0.8984375,
+      "review_flagged_frames": 2
+    },
+    {
+      "episode": "teleop_teleoperation_20261110_084443_978_episode_000000005",
+      "segment": 3,
+      "instruction": "Put the yellow textured oval produce item in the light blue tray.",
+      "frames": 12,
+      "final_progress": 0.8604543209075928,
+      "final_success_probability": 0.8046875,
+      "max_success_probability": 0.81640625,
+      "review_flagged_frames": 2
+    },
+    {
+      "episode": "teleop_teleoperation_20261110_084443_978_episode_000000005",
+      "segment": 4,
+      "instruction": "Put the lavender rabbit toy in the white tray.",
+      "frames": 16,
+      "final_progress": 0.8801587820053101,
+      "final_success_probability": 0.92578125,
+      "max_success_probability": 0.92578125,
+      "review_flagged_frames": 2
+    },
+    {
+      "episode": "teleop_teleoperation_20261110_084443_978_episode_000000005",
+      "segment": 5,
+      "instruction": "Put the white-and-purple unicorn toy in the white tray.",
+      "frames": 14,
+      "final_progress": 0.9516732692718506,
+      "final_success_probability": 0.96484375,
+      "max_success_probability": 0.96484375,
+      "review_flagged_frames": 2
+    },
+    {
+      "episode": "teleop_teleoperation_20261110_084443_978_episode_000000005",
+      "segment": 6,
+      "instruction": "Put the red lobster toy in the white tray.",
+      "frames": 27,
+      "final_progress": 0.8378537893295288,
+      "final_success_probability": 0.7109375,
+      "max_success_probability": 0.8671875,
+      "review_flagged_frames": 2
+    },
+    {
+      "episode": "teleop_teleoperation_20261110_084443_978_episode_000000005",
+      "segment": 7,
+      "instruction": "Verify that the drinks are on the wooden shelf, the produce is in the light blue tray, and the toys are in the white tray.",
+      "frames": 2,
+      "final_progress": 0.32786861062049866,
+      "final_success_probability": 0.00136566162109375,
+      "max_success_probability": 0.01544189453125,
+      "review_flagged_frames": 2
+    },
+    {
+      "episode": "teleop_teleoperation_20261111_021751_084_episode_000000001",
+      "segment": 0,
+      "instruction": "Put the black drink can on the wooden shelf.",
+      "frames": 22,
+      "final_progress": 0.840435802936554,
+      "final_success_probability": 0.70703125,
+      "max_success_probability": 0.79296875,
+      "review_flagged_frames": 1
+    },
+    {
+      "episode": "teleop_teleoperation_20261111_021751_084_episode_000000001",
+      "segment": 1,
+      "instruction": "Put the red fruit-shaped object in the light blue tray.",
+      "frames": 21,
+      "final_progress": 0.9112538695335388,
+      "final_success_probability": 0.93359375,
+      "max_success_probability": 0.96875,
+      "review_flagged_frames": 9
+    },
+    {
+      "episode": "teleop_teleoperation_20261111_021751_084_episode_000000001",
+      "segment": 2,
+      "instruction": "Put the lavender rabbit toy in the white tray.",
+      "frames": 11,
+      "final_progress": 0.6833816766738892,
+      "final_success_probability": 0.171875,
+      "max_success_probability": 0.17578125,
+      "review_flagged_frames": 11
+    },
+    {
+      "episode": "teleop_teleoperation_20261111_021924_085_episode_000000004",
+      "segment": 0,
+      "instruction": "Put the black drink can on the wooden shelf.",
+      "frames": 26,
+      "final_progress": 0.8065991997718811,
+      "final_success_probability": 0.78125,
+      "max_success_probability": 0.78125,
+      "review_flagged_frames": 1
+    },
+    {
+      "episode": "teleop_teleoperation_20261111_021924_085_episode_000000004",
+      "segment": 1,
+      "instruction": "Put the red fruit-shaped object in the light blue tray.",
+      "frames": 27,
+      "final_progress": 0.8663144111633301,
+      "final_success_probability": 0.92578125,
+      "max_success_probability": 0.9375,
+      "review_flagged_frames": 6
+    },
+    {
+      "episode": "teleop_teleoperation_20261111_021924_085_episode_000000004",
+      "segment": 2,
+      "instruction": "Put the lavender rabbit toy in the white tray.",
+      "frames": 11,
+      "final_progress": 0.5335269570350647,
+      "final_success_probability": 0.11279296875,
+      "max_success_probability": 0.11279296875,
+      "review_flagged_frames": 11
+    },
+    {
+      "episode": "teleop_teleoperation_20261111_022041_484_episode_000000005",
+      "segment": 0,
+      "instruction": "Put the black drink can on the wooden shelf.",
+      "frames": 21,
+      "final_progress": 0.8259963989257812,
+      "final_success_probability": 0.77734375,
+      "max_success_probability": 0.77734375,
+      "review_flagged_frames": 1
+    },
+    {
+      "episode": "teleop_teleoperation_20261111_022041_484_episode_000000005",
+      "segment": 1,
+      "instruction": "Put the red fruit-shaped object in the light blue tray.",
+      "frames": 18,
+      "final_progress": 0.8103936910629272,
+      "final_success_probability": 0.546875,
+      "max_success_probability": 0.74609375,
+      "review_flagged_frames": 8
+    },
+    {
+      "episode": "teleop_teleoperation_20261111_022041_484_episode_000000005",
+      "segment": 2,
+      "instruction": "Put the lavender rabbit toy in the white tray.",
+      "frames": 13,
+      "final_progress": 0.8476957082748413,
+      "final_success_probability": 0.80859375,
+      "max_success_probability": 0.80859375,
+      "review_flagged_frames": 13
+    }
+  ],
+  "method": "For each selected frame, sample up to 8 selected frames uniformly from the start of its contiguous instruction segment through the current frame. Return the current frame score."
+}

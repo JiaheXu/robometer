@@ -1,0 +1,2 @@
+SUMMARY {"frames": 457, "mean_delta_progress": 0.029597993948266593, "mean_absolute_delta_progress": 0.07263855857843904, "mean_delta_success": -0.01695889195415071, "mean_absolute_delta_success": 0.07490991972207502, "success_threshold_flips": 41, "head_frames_above_threshold": 109, "three_frames_above_threshold": 92}
+COMPLETE /home/jiahe/robometer/outputs/system012_three_camera_20261114/index.html

@@ -1,0 +1,25 @@
+{
+  "completed_requests": 914,
+  "expected_requests": 914,
+  "complete": true,
+  "modes": {
+    "head": {
+      "judgments": 457,
+      "uncertain_success": 0,
+      "progress_compared": 457,
+      "progress_mean_absolute_difference": 0.19384591448620067,
+      "success_probability_compared": 457,
+      "success_probability_mean_absolute_difference": 0.15931542107312904,
+      "threshold_agreement_count": 365
+    },
+    "three": {
+      "judgments": 457,
+      "uncertain_success": 0,
+      "progress_compared": 457,
+      "progress_mean_absolute_difference": 0.21156639204244387,
+      "success_probability_compared": 457,
+      "success_probability_mean_absolute_difference": 0.16574110082046228,
+      "threshold_agreement_count": 376
+    }
+  }
+}

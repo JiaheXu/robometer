@@ -1,0 +1,19 @@
+{
+  "complete": true,
+  "judgments": 914,
+  "unique_camera_frame_inputs": 914,
+  "episode_judgments": {
+    "teleop_teleoperation_20261110_084120_478_episode_000000003": 168,
+    "teleop_teleoperation_20261110_084303_878_episode_000000004": 190,
+    "teleop_teleoperation_20261110_084443_978_episode_000000005": 216,
+    "teleop_teleoperation_20261111_021751_084_episode_000000001": 108,
+    "teleop_teleoperation_20261111_021924_085_episode_000000004": 128,
+    "teleop_teleoperation_20261111_022041_484_episode_000000005": 104
+  },
+  "subtask_panels": 33,
+  "all_report_links_valid": true,
+  "baseline_predictions_unchanged": true,
+  "head_only_files_preserved": 51,
+  "model": "gpt-6-astra",
+  "human_accuracy_evaluated": false
+}

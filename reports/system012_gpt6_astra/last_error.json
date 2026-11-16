@@ -1,0 +1,131 @@
+{
+  "failures": [
+    {
+      "episode": "teleop_teleoperation_20261110_084303_878_episode_000000004",
+      "event_id": "0013",
+      "mode": "head",
+      "error": "HTTPError HTTP 429"
+    },
+    {
+      "episode": "teleop_teleoperation_20261110_084443_978_episode_000000005",
+      "event_id": "0071",
+      "mode": "head",
+      "error": "HTTPError HTTP 429"
+    },
+    {
+      "episode": "teleop_teleoperation_20261111_022041_484_episode_000000005",
+      "event_id": "0010",
+      "mode": "three",
+      "error": "TimeoutError"
+    },
+    {
+      "episode": "teleop_teleoperation_20261111_022041_484_episode_000000005",
+      "event_id": "0012",
+      "mode": "head",
+      "error": "TimeoutError"
+    },
+    {
+      "episode": "teleop_teleoperation_20261111_022041_484_episode_000000005",
+      "event_id": "0011",
+      "mode": "three",
+      "error": "TimeoutError"
+    },
+    {
+      "episode": "teleop_teleoperation_20261111_022041_484_episode_000000005",
+      "event_id": "0013",
+      "mode": "head",
+      "error": "TimeoutError"
+    },
+    {
+      "episode": "teleop_teleoperation_20261111_022041_484_episode_000000005",
+      "event_id": "0014",
+      "mode": "three",
+      "error": "TimeoutError"
+    },
+    {
+      "episode": "teleop_teleoperation_20261111_022041_484_episode_000000005",
+      "event_id": "0015",
+      "mode": "head",
+      "error": "URLError"
+    },
+    {
+      "episode": "teleop_teleoperation_20261111_022041_484_episode_000000005",
+      "event_id": "0018",
+      "mode": "head",
+      "error": "URLError"
+    },
+    {
+      "episode": "teleop_teleoperation_20261111_022041_484_episode_000000005",
+      "event_id": "0021",
+      "mode": "head",
+      "error": "URLError"
+    },
+    {
+      "episode": "teleop_teleoperation_20261111_022041_484_episode_000000005",
+      "event_id": "0026",
+      "mode": "three",
+      "error": "URLError"
+    },
+    {
+      "episode": "teleop_teleoperation_20261111_022041_484_episode_000000005",
+      "event_id": "0037",
+      "mode": "three",
+      "error": "URLError"
+    },
+    {
+      "episode": "teleop_teleoperation_20261111_022041_484_episode_000000005",
+      "event_id": "0038",
+      "mode": "head",
+      "error": "URLError"
+    },
+    {
+      "episode": "teleop_teleoperation_20261111_022041_484_episode_000000005",
+      "event_id": "0048",
+      "mode": "head",
+      "error": "URLError"
+    },
+    {
+      "episode": "teleop_teleoperation_20261111_022041_484_episode_000000005",
+      "event_id": "0048",
+      "mode": "three",
+      "error": "URLError"
+    },
+    {
+      "episode": "teleop_teleoperation_20261111_022041_484_episode_000000005",
+      "event_id": "0049",
+      "mode": "three",
+      "error": "URLError"
+    },
+    {
+      "episode": "teleop_teleoperation_20261111_022041_484_episode_000000005",
+      "event_id": "0049",
+      "mode": "head",
+      "error": "URLError"
+    },
+    {
+      "episode": "teleop_teleoperation_20261111_022041_484_episode_000000005",
+      "event_id": "0050",
+      "mode": "head",
+      "error": "URLError"
+    },
+    {
+      "episode": "teleop_teleoperation_20261111_022041_484_episode_000000005",
+      "event_id": "0050",
+      "mode": "three",
+      "error": "URLError"
+    },
+    {
+      "episode": "teleop_teleoperation_20261111_022041_484_episode_000000005",
+      "event_id": "0051",
+      "mode": "three",
+      "error": "URLError"
+    },
+    {
+      "episode": "teleop_teleoperation_20261111_022041_484_episode_000000005",
+      "event_id": "0051",
+      "mode": "head",
+      "error": "URLError"
+    }
+  ],
+  "saved_requests": 893
+}
