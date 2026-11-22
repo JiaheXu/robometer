@@ -22,6 +22,7 @@ Usage examples:
         server_port=8003
 
 Endpoints:
+  GET /                       - Live service-status dashboard
   POST /evaluate_batch        - JSON payload with samples
   POST /evaluate_batch_npy    - multipart payload with .npy blobs for numpy arrays
   GET /health                 - Health check
@@ -66,6 +67,7 @@ except ImportError:
 
 from robometer.evals.run_baseline_eval import process_preference_sample, process_progress_sample
 from robometer.evals.eval_utils import parse_npy_form_data, reconstruct_payload_from_npy
+from robometer.evals.status_ui import add_status_ui
 from robometer.utils.config_utils import display_config, convert_hydra_to_dataclass
 from robometer.utils.logger import get_logger, setup_loguru_logging
 
@@ -362,6 +364,7 @@ class BaselineEvalServer:
 
 def create_app(cfg: BaselineEvalConfig, baseline_server: BaselineEvalServer | None = None):
     app = FastAPI(title="Baseline Evaluation Server")
+    add_status_ui(app)
 
     app.add_middleware(
         CORSMiddleware,

@@ -10,6 +10,7 @@ Usage example:
         server_port=8001
 
 Endpoints:
+  GET /                      - Live service-status dashboard
   POST /evaluate_batch        - JSON payload
   POST /evaluate_batch_npy    - multipart payload with .npy blobs
 
@@ -47,6 +48,7 @@ from robometer.evals.eval_utils import (
     parse_npy_form_data,
     reconstruct_payload_from_npy,
 )
+from robometer.evals.status_ui import add_status_ui
 from robometer.utils.save import load_model_from_hf
 from robometer.configs.eval_configs import EvalServerConfig
 from robometer.configs.experiment_configs import ExperimentConfig
@@ -473,15 +475,10 @@ class MultiGPUEvalServer:
                 use_frame_steps,
             )
 
-            # Update stats
-            processing_time = time.time() - start_time
-            self.gpu_stats[gpu_info["gpu_id"]]["total_requests"] += 1
-            self.gpu_stats[gpu_info["gpu_id"]]["total_processing_time"] += processing_time
-
             return result
 
         finally:
-            # Always return GPU to pool and update stats
+            # Count each finished request once, including failures, and release the GPU.
             processing_time = time.time() - start_time
             self.gpu_stats[gpu_info["gpu_id"]]["total_requests"] += 1
             self.gpu_stats[gpu_info["gpu_id"]]["total_processing_time"] += processing_time
@@ -598,6 +595,7 @@ def compute_batch_outputs(
 
 def create_app(cfg: EvalServerConfig, multi_gpu_server: MultiGPUEvalServer | None = None):
     app = FastAPI(title="RBM Multi-GPU Evaluation Server")
+    add_status_ui(app, gpu_status=True)
 
     app.add_middleware(
         CORSMiddleware,

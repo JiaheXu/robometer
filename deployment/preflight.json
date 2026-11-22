@@ -1,0 +1,18 @@
+{
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "compute_capability": [
+    12,
+    0
+  ],
+  "torch_cuda": "12.8",
+  "bf16_cuda_matmul": "passed",
+  "server_import": "passed",
+  "packages": {
+    "torch": "2.8.0+cu128",
+    "torchvision": "0.23.0+cu128",
+    "transformers": "4.57.6",
+    "peft": "0.21.3",
+    "huggingface-hub": "0.36.2",
+    "fastapi": "0.162.5"
+  }
+}

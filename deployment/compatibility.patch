@@ -1,0 +1,13 @@
+diff --git a/pyproject.toml b/pyproject.toml
+index 3e33244..41bacff 100755
+--- a/pyproject.toml
++++ b/pyproject.toml
+@@ -134,6 +134,8 @@ allow-direct-references = true
+ 
+ # Configuration for the 'uv' package manager
+ [tool.uv]
++# TorchAO 0.13 is built for the pinned Torch 2.8 runtime.
++constraint-dependencies = ["torchao==0.13.0"]
+ # Declare that robometer and vlac optional dependencies are incompatible
+ # They have conflicting trl and transformers version requirements
+ conflicts = [

@@ -86,6 +86,15 @@ uv run python robometer/evals/eval_server.py \
   server_port=8000
 ```
 
+Once the server has loaded the model and started listening, open
+[http://localhost:8000/](http://localhost:8000/) for the service-status dashboard.
+It refreshes every five seconds and shows health-check response time, GPU availability,
+per-GPU activity, finished request counts, processing times, and model details.
+You can pause automatic refresh or refresh manually. Failed checks clear the affected
+metrics and show an error; health checks do not run inference or verify external model providers.
+The same dashboard is available at the baseline server's root URL (port 8001 by default),
+with GPU metrics marked as not reported. API documentation remains at `/docs` and `/redoc`.
+
 Then run the client (no robometer dependency):
 
 ```bash

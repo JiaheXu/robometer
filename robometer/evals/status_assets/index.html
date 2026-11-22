@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Service status · Robometer</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="./status-assets/status.css">
+  <script src="./status-assets/status.js" defer></script>
+</head>
+<body data-gpu-status="__GPU_STATUS_ENABLED__">
+  <header class="topbar">
+    <a class="brand" href="./" aria-label="Robometer home"><span class="brand-mark" aria-hidden="true">r</span> robometer<span class="brand-divider">/</span><span class="brand-section">service console</span></a>
+    <a class="docs-link" href="./docs">API docs <span aria-hidden="true">↗</span></a>
+  </header>
+  <main>
+    <div class="page-heading">
+      <div><p class="eyebrow">VLM SERVICE</p><h1>Service overview<span class="heading-dot">.</span></h1><p class="subtitle">A live view of your evaluation service.</p></div>
+      <div class="controls"><label class="auto-refresh"><input id="auto-refresh" type="checkbox" checked> Auto-refresh <span>5s</span></label><button id="refresh" type="button"><span aria-hidden="true">↻</span> Refresh now</button></div>
+    </div>
+
+    <section class="service-banner" id="service-banner" data-tone="neutral" aria-labelledby="service-state">
+      <span class="signal" aria-hidden="true"></span>
+      <div class="banner-copy"><h2 id="service-state" role="status">Connecting to service</h2><p id="service-description">Waiting for the first health check.</p></div>
+      <div class="service-address"><span class="eyebrow">CONNECTED ADDRESS</span><span id="service-address" class="mono"></span></div>
+    </section>
+    <div class="sync-line"><span id="refresh-state" role="status">Checking service…</span><span id="last-checked">No checks completed yet</span></div>
+    <noscript><p class="notice">Enable JavaScript to view live status, or open <a href="./health">the health endpoint</a>.</p></noscript>
+
+    <section class="metrics" aria-label="Service metrics">
+      <article class="metric"><p class="metric-label">HEALTH RESPONSE</p><p class="metric-value" id="health-latency">—</p><p class="metric-detail">Round trip to the health endpoint</p></article>
+      <article class="metric"><p class="metric-label">AVAILABLE GPUs</p><p class="metric-value" id="available-gpus">—</p><p class="metric-detail" id="gpu-summary">Waiting for GPU status</p></article>
+      <article class="metric"><p class="metric-label">FINISHED REQUESTS</p><p class="metric-value" id="finished-requests">—</p><p class="metric-detail">Includes successful and failed requests</p></article>
+      <article class="metric"><p class="metric-label">AVG. PROCESSING TIME</p><p class="metric-value" id="average-time">—</p><p class="metric-detail">Per finished request, across all GPUs</p></article>
+    </section>
+
+    <div class="content-grid">
+      <section class="panel gpu-panel" aria-labelledby="gpu-title">
+        <div class="panel-heading"><div><p class="eyebrow">COMPUTE</p><h2 id="gpu-title">GPU pool</h2></div><span class="badge" id="gpu-count">Waiting</span></div>
+        <p class="panel-note" id="worker-summary">Availability and activity for each model replica.</p>
+        <div id="gpu-list" class="gpu-list"><p class="empty-state">Waiting for GPU telemetry…</p></div>
+        <p class="panel-footnote">Request counts and timings cover this server run.</p>
+      </section>
+      <section class="panel" aria-labelledby="model-title">
+        <div class="panel-heading"><div><p class="eyebrow">MODEL</p><h2 id="model-title">Model details</h2></div><span class="badge" id="model-state">Waiting</span></div>
+        <p id="model-name" class="model-name">Waiting for model information…</p>
+        <dl class="model-details">
+          <div><dt>Architecture</dt><dd id="model-architecture">—</dd></div>
+          <div><dt>Parameters</dt><dd id="model-parameters">—</dd></div>
+          <div><dt>Model type</dt><dd id="model-type">—</dd></div>
+          <div><dt>Provider</dt><dd id="model-provider">—</dd></div>
+        </dl>
+        <p class="panel-footnote">Health checks confirm API availability. They do not run an inference or check an external model provider.</p>
+      </section>
+    </div>
+
+    <section class="panel endpoints-panel" aria-labelledby="endpoints-title">
+      <div class="panel-heading"><div><p class="eyebrow">CONNECTIVITY</p><h2 id="endpoints-title">Status endpoints</h2></div><span class="panel-note" id="endpoint-refresh">Checked automatically every 5 seconds</span></div>
+      <div id="endpoint-list" class="endpoint-list"></div>
+    </section>
+    <footer><span>ROBOMETER <span class="footer-divider">/</span> Evaluation service</span><span>Live status · <a href="./redoc">API reference ↗</a></span></footer>
+  </main>
+</body>
+</html>
